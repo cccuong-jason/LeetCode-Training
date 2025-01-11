@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"sort"
 )
 
 func sortedSquares(nums []int) []int {
@@ -30,6 +29,6 @@ func sortedSquares(nums []int) []int {
 func main() {
 	// Example usage
 	nums := []int{-4, -2, 0, 2, 4}
-	squared := squareSortedArray(nums)
+	squared := sortedSquares(nums)
 	fmt.Println(squared) // Output: [0 4 4 16 16]
 }
